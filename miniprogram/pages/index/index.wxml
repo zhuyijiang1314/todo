@@ -1,7 +1,2 @@
 <!--miniprogram/pages/index/index.wxml-->
-<van-cell-group>
- <block wx:for="{{tasks}}" >
-  <van-cell title="{{item.title}}"/>
- </block>
- 
-</van-cell-group>
+<text>miniprogram/pages/index/index.wxml</text>

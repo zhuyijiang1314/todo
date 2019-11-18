@@ -1,5 +1,0 @@
-<!--pages/addTodo/addTodo.wxml-->
-<form bindsubmit="onSubmit">
-<input name="title"></input>
-<button form-type="submit">提交</button>
-</form>

@@ -4,21 +4,10 @@
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
-		"enhance": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"coverView": true,
-		"autoAudits": false,
-		"checkInvalidKey": true,
-		"checkSiteMap": true,
-		"uploadWithSourceMap": true,
-		"babelSetting": {
-			"ignore": [],
-			"disablePlugins": [],
-			"outputPath": ""
-		},
-		"nodeModules": true
+		"enhance": true
 	},
 	"appid": "wx8ac0626dd35dbb6c",
 	"projectname": "hoto1",
@@ -41,25 +30,13 @@
 		"game": {
 			"list": []
 		},
-		"gamePlugin": {
-			"current": -1,
-			"list": []
-		},
 		"miniprogram": {
 			"current": 0,
 			"list": [
 				{
 					"id": -1,
 					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide",
-					"query": ""
-				},
-				{
-					"id": 1,
-					"name": "addTodo",
-					"pathName": "pages/addTodo/addTodo",
-					"query": "",
-					"scene": null
+					"pathName": "pages/databaseGuide/databaseGuide"
 				}
 			]
 		}
