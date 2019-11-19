@@ -1,1 +1,4 @@
 /* miniprogram/pages/index/index.wxss */
+/* .van-cell{
+  height: 100rpx !important;
+} */

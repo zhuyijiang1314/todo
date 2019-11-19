@@ -1,11 +1,12 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/addTodo/addTodo"
+    "pages/addTodo/addTodo",
+    "pages/about/about"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "云待办",
     "navigationBarTextStyle": "black"
@@ -14,6 +15,6 @@
     "van-button": "vant-weapp/button",
     "van-cell": "vant-weapp/cell",
     "van-cell-group": "vant-weapp/cell-group"
-
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
