@@ -60,6 +60,13 @@
 					"pathName": "pages/addTodo/addTodo",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "todoInfo",
+					"pathName": "pages/todoInfo/todoInfo",
+					"query": "id=05a1947c5dd2208a01265b41791351f8",
+					"scene": null
 				}
 			]
 		}

@@ -2,3 +2,22 @@
 /* .van-cell{
   height: 100rpx !important;
 } */
+
+.plusBtn{
+  position: fixed;
+   font-size: 20px;
+   bottom:50px;
+   z-index: 1;
+   right: 375rpx;
+   background-color:red;
+   border-radius: 50%;
+   height: 40px;
+   width: 40px;
+   
+   text-align: center;
+   
+}
+.plusBtn van-icon{
+  color: #fff;
+  line-height: 44px;
+}

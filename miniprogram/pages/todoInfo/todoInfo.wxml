@@ -1,0 +1,6 @@
+<!--pages/todoInfo/todoInfo.wxml-->
+<van-cell-group>
+  <van-cell title="{{task.title}}" 
+            value="{{task.status === 'inProgress' ? '进行中' : '已完成' }}" 
+            />
+</van-cell-group>

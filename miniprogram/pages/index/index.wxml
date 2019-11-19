@@ -1,7 +1,12 @@
 <!--miniprogram/pages/index/index.wxml-->
+
+<view class="plusBtn">
+  <van-icon name="plus" class="van-icon"  />
+</view>
 <van-cell-group>
- <block wx:for="{{tasks}}" wx:key="{{index}}">
-  <van-cell title="{{item.title}}" class="van-cell"/>
- </block>
- 
+  <block wx:for="{{tasks}}" wx:key="{{index}}">
+    <navigator url="../todoInfo/todoInfo?id={{item._id}}">
+      <van-cell title="{{item.title}}" class="van-cell" />
+    </navigator>
+  </block>
 </van-cell-group>
