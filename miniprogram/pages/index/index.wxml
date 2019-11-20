@@ -1,7 +1,9 @@
 <!--miniprogram/pages/index/index.wxml-->
 
 <view class="plusBtn">
-  <van-icon name="plus" class="van-icon"  />
+  <navigator url ="../addTodo/addTodo">
+   <van-icon name="plus" class="van-icon" />
+  </navigator>   
 </view>
 <van-cell-group>
   <block wx:for="{{tasks}}" wx:key="{{index}}">
